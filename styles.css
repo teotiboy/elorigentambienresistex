@@ -1,0 +1,192 @@
+/*
+ * styles.css
+ *
+ * Hoja de estilos central para el sitio "El origen también resiste". Este archivo
+ * complementa los estilos de Bootstrap y aplica una paleta cromática
+ * inspirada en el agua y la naturaleza de Xochimilco. Todas las páginas
+ * del sitio enlazan a este archivo para mantener una apariencia
+ * consistente.
+ */
+
+/* Tipografía base y ajustes generales */
+
+@font-face {
+  font-family: 'Bahianita';
+  src: url('fonts/Bahianita-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Puritan';
+  src: url('fonts/Puritan-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-brand{
+  font-size: 56px !important;
+}
+
+.navbar-brand-logo{
+  height: 80px !important;
+  width: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px !important;
+}
+
+main, section.container {
+  flex: 1 0 auto;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.lead {
+  font-size: 28px !important;
+  
+}
+
+.btn{
+  background-color: #3B7A14;
+  color: white;
+  border: none;
+  font-family: 'Bahianita', cursive, sans-serif;
+}
+
+body {
+  font-family: 'Puritan', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f9fc;
+  color: #212529;
+}
+
+
+.navbar{
+  
+  background-color: #3B7A14 !important;
+  padding: 30px;
+}
+
+/* Estilo para la barra de navegación */
+.navbar-brand {
+  font-family: 'Bahianita', cursive, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+}
+
+.nav-link {
+  font-weight: normal;
+}
+
+.nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+/* Estilos de sección */
+.section-title {
+  color: #3B7A14;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Bahianita', cursive, sans-serif;
+  font-size: 36px !important;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Bahianita', cursive, sans-serif;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Tarjetas de contenido */
+.content-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Carrusel de imágenes */
+.carousel-item img {
+  height: 620px;
+  object-fit: cover;
+}
+
+/* Pie de página */
+.footer {
+  background: #71A249;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 100px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-control {
+  border-radius: 0.25rem;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+.display-5{
+  font-family: 'Bahianita', cursive, sans-serif;
+  font-weight: bold;
+  color: #3B7A14;
+  margin-top: 1rem;
+}
+
+.text-primary {
+  color: #144B00 !important;
+}
+
+.list-group-item{
+  padding: 40px;
+  
+}
